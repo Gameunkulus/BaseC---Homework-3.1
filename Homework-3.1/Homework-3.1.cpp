@@ -5,10 +5,12 @@
 using namespace std;
 
 class Calculator {
-public:
+private:
 
     double num1;
     double num2;
+
+public:
 
     double add() {
         double inum = num1 + num2;
